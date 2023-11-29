@@ -1,0 +1,58 @@
+
+a.jp-play {
+	background: url("play.png");
+	width:9px;
+	height:11px; 
+}
+a.jp-play:hover {
+	background: url("play_hover.png");
+	width:9px;
+	height:11px;
+}
+a.jp-pause {
+	background: url("pause.png");
+	width:9px;
+	height:11px;
+}
+a.jp-pause:hover {
+	background: url("pause_hover.png");
+	width:9px;
+	height:11px;
+}
+
+a.jp-stop {
+	background: url("stop.png");
+	width:11px;
+	height:11px;
+}
+
+a.jp-stop:hover {
+	background: url("stop_hover.png");
+	width:11px;
+	height:11px;
+}
+
+a.jp-previous {
+	background: url("previous.png");
+	width:16px;
+	height:11px;
+}
+a.jp-previous:hover {
+	background: url("previous_hover.png");
+	width:16px;
+	height:11px;
+}
+
+a.jp-next {
+	background: url("next.png");
+	width:16px;
+	height:11px;
+}
+
+a.jp-next:hover {
+	background: url("next_hover.png");
+	width:16px;
+	height:11px;
+}
+
+

@@ -1,0 +1,91 @@
+.color1 { color:#fff; }
+.color1b { background-color:#fff; }
+
+.color2 { color:#08afc6; }  /* Main color #1 */
+.color2b { background-color:#08afc6; } /* Main color #1 */
+
+.color3 { color:#181a1b; }
+.color3b { background-color:#181a1b; }
+
+.color4 { color:#fd4239; } /* Main color #2 */
+.color4b { background-color:#fd4239; } /* Main color #2 */
+
+.color5 { color:#dadada; }
+.color5b { background-color:#dadada; }
+
+.color6 { color:#828282; }
+.color6b { background-color:#828282; } 
+
+.color7 { color:#707070; }
+.color7b { background-color:#707070; } 
+
+.color8 { color:#5f9b09; }
+.color8b { background-color:#5f9b09; } 
+
+.color9 { color: rgba(0, 0, 0, .9) }
+.color9b { background: rgba(0, 0, 0, .9) }
+
+ .color_hover1:hover { color:#08afc6; /* Main color #1 */
+ -webkit-transition: color 300ms linear;
+ -moz-transition: color 300ms linear;
+-o-transition: color 300ms linear;
+ -ms-transition: color 300ms linear;
+ transition: color 300ms linear;
+ }
+.color_hover1b:hover { background-color:#08afc6; /* Main color #1 */
+ -webkit-transition: background-color 300ms linear;
+ -moz-transition: background-color 300ms linear;
+-o-transition: background-color 300ms linear;
+ -ms-transition: background-color 300ms linear;
+ transition: background-color 300ms linear;
+ }
+ 
+ .color_hover2:hover { color:#fd4239; /* Main color #2 */
+ -webkit-transition: color 300ms linear;
+ -moz-transition: color 300ms linear;
+-o-transition: color 300ms linear;
+ -ms-transition: color 300ms linear;
+ transition: color 300ms linear;
+ }
+.color_hover2b:hover { background-color:#fd4239; /* Main color #2 */
+ -webkit-transition: background-color 300ms linear;
+ -moz-transition: background-color 300ms linear;
+-o-transition: background-color 300ms linear;
+ -ms-transition: background-color 300ms linear;
+ transition: background-color 300ms linear;
+ }
+
+.link_color1 a { color:#fff; }
+.link_color2 a { color:#828282; }
+
+.link_color_hover1 a:hover { color:#fd4239;
+ -webkit-transition: color 300ms linear;
+ -moz-transition: color 300ms linear;
+-o-transition: color 300ms linear;
+ -ms-transition: color 300ms linear;
+ transition: color 300ms linear;
+ }
+.link_color_hover1b a:hover { background-color:#fd4239;
+ -webkit-transition: background-color 300ms linear;
+ -moz-transition: background-color 300ms linear;
+-o-transition: background-color 300ms linear;
+ -ms-transition: background-color 300ms linear;
+ transition: background-color 300ms linear;
+ }
+ 
+ .link_color_hover2 a:hover { color:#000;
+ -webkit-transition: color 300ms linear;
+ -moz-transition: color 300ms linear;
+-o-transition: color 300ms linear;
+ -ms-transition: color 300ms linear;
+ transition: color 300ms linear;
+ }
+.link_color_hover2b a:hover { background-color:#000;
+ -webkit-transition: background-color 300ms linear;
+ -moz-transition: background-color 300ms linear;
+-o-transition: background-color 300ms linear;
+ -ms-transition: background-color 300ms linear;
+ transition: background-color 300ms linear;
+ }
+ 
+ .border_color1 { border-color:#fff; }

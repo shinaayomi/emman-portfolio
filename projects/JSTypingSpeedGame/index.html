@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Wordbeater 2.0</title>
+  <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body class="bg-dark text-white">
+  <header class="bg-secondary p-3 mb-5">
+    <div class="row">
+      <div class="col-md-8">
+        <h1>Wordbeater 2.0</h1>
+      </div>
+      <div class="col-md-4">
+        <h1>High Score: <span id="high-score">0</span></h1>
+      </div>
+    </div>
+  </header>
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-md-4">
+        <h3>Time:
+          <span id="time">2</span>
+        </h3>
+      </div>
+      <div class="col-md-4">
+        <h3>Score:
+          <span id="score">0</span>
+        </h3>
+      </div>
+      <div class="col-md-4">
+        <h3>Difficulty:
+          <select id="difficulty">
+            <option value="default">Default</option>
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+          </select>
+        </h3>
+      </div>
+    </div>
+    <!--Row End-->
+
+    <div id="game">
+      <!--Row End-->
+      <div class="row mt-5">
+        <div class="col-md-4 mx-auto">
+          <p class="lead">Type The Given Word Within
+            <span class="text-success" id="seconds">2</span> Seconds:
+          </p>
+          <h2 id="current-word" class="display-2 mb-5"></h2>
+        </div>
+      </div>
+      <!--Row End-->
+      <div class="row">
+        <div class="col-md-12 mx-auto">
+          <input type="text" class="form-control form-control-lg" id="word-input" placeholder="Start Typing">
+          <h4 class="mt-3" id="message"></h4>
+        </div>
+      </div>
+    </div>
+    <!--Div End-->
+
+    <div class="row mt-5">
+      <div class="col-md-12 mx-auto">
+        <button id="start-game" class="btn btn-primary btn-block p-2">
+          <h5>Start Game</h5>
+        </button>
+      </div>
+    </div>
+    <!--Row End-->
+
+    <div class="row mt-5">
+      <div class="col-md-12">
+        <div class="card card-body bg-secondary text-white">
+          <h5>Instructions</h5>
+          <p>Type each in the given amount of seconds to score...Repeat to score again.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script src="app.js"></script>
+</body>
+</html>

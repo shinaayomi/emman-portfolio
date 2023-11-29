@@ -1,0 +1,144 @@
+@media (max-width: 990px) {
+    .chating_txt::after,
+    .hero_item::before,
+    .hero_item::after,
+    .rule_right:after {
+        display: none;
+    }
+	.clients_main{
+		padding: 20px;
+	}
+	.navbar-default .navbar-nav > li{
+		margin: 30px 10px 0;
+	}
+}
+
+@media (max-width: 767px) {
+    .section-padding {
+        padding: 60px 0
+    }
+    .all-button {
+        padding: 10px 35px;
+    }
+    .navbar-default .navbar-toggle {
+        background: none;
+        margin-top: 25px;
+        border: none;
+    }
+    .navbar-default .navbar-toggle:hover,
+    .navbar-default .navbar-toggle:focus {
+        background: none;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background: #18fefb;
+    }
+    .navbar-default .navbar-collapse {
+        border: none;
+        background: #111;
+        margin-top: 10px;
+        text-align: center;
+    }
+    /*-- Header content--*/
+    .middil_content_left {
+        padding-right: 0px;
+    }
+    .middil_content_left h1 {
+        font-size: 105px;
+    }
+    .middil_content_right::before {
+        height: 80%;
+        width: 8px;
+    }
+    .middil_content_right h2 {
+        font-size: 30px;
+        line-height: 0.9;
+    }
+    .middil_content_right h4 {
+        font-size: 15px;
+        line-height: 1.7;
+    }
+    .middil_content_right span {
+        font-size: 15px;
+    }
+    /*-- End header content--*/
+    .chating_txt h2 {
+        font-size: 40px;
+    }
+    .hero_img,
+    .skill_items,
+    .number_box,
+    .post,
+    .address_box {
+        margin-bottom: 50px;
+    }
+    .clients_main,
+    .address_box,
+    .contact_item {
+        text-align: center;
+    }
+    .clients_main {
+        padding: 0px;
+        background: transparent;
+    }
+    .direction {
+        border: none;
+    }
+    .address_box p {
+        width: 80%;
+        margin: auto;
+    }
+    .hero_item::before .chating_button {
+        margin-top: 2%;
+    }
+    /*--- Home Version2 --*/
+    .home_content h2 {
+        font-size: 35px
+    }
+    .home_content p {
+        font-size: 12px;
+        line-height: 19px;
+        margin-top: 5px;
+        margin-bottom: 12px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .middil_content_left h1 {
+        font-size: 83px;
+    }
+    .middil_content_right::before {
+        height: 89%;
+        width: 4px;
+        bottom: 5px;
+    }
+    .middil_content_right {
+        padding-left: 10px;
+    }
+    .middil_content_right h2 {
+        font-size: 22px;
+        line-height: 1.2;
+    }
+    .middil_content_right h4 {
+        font-size: 16px;
+        line-height: 1;
+    }
+    .middil_content_right span {
+        font-size: 16px;
+    }
+    .all-button {
+        padding: 10px 22px;
+        font-size: 12px;
+    }
+    .contact_item .b-btn {
+        padding: 10px 22px;
+        font-size: 12px;
+    }
+    /*--- Home Version2 --*/
+    .home_content h2 {
+        font-size: 25px;
+    }
+    .home_content p {
+        font-size: 12px;
+        line-height: 12px;
+    }
+}
